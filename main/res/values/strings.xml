@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">goUMD</string>
+    <string name="search">Search</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="job_one">Job One</string>
+    <string name="_21_williams_ave_syosset_ny">21 Williams Ave, Syosset, NY</string>
+    <string name="_25_00">$25.00</string>
+    <string name="show_on_map">Show On Map</string>
+    <string name="hi_we_need_someone_to_clean_the_leaves_outside_our_house">Hi. We need someone to clean the leaves outside our house</string>
+    <string name="job_two">Job Two</string>
+    <string name="_123_something_avenue">123 Something Avenue</string>
+    <string name="_10_00">$10.00</string>
+    <string name="hi_we_need_someone_to_wash_our_cars">Hi. We need someone to wash our cars.</string>
+    <string name="job_three">Job Three</string>
+    <string name="hi_we_need_someone_to_fix_my_computer">Hi. We need someone to fix my computer.</string>
+    <string name="profile">Profile</string>
+    <string name="edit">Edit</string>
+    <string name="duck_horse">Duck Horse</string>
+    <string name="phone_123_123_1234">Phone #: 123-123-1234</string>
+    <string name="rating_0_0_0_0_o">Rating: 0 0 0 0 O</string>
+    <string name="just_a_cool_dude">Just a cool dude</string>
+    <string name="todo">TODO</string>
+    <string name="add_job">Add Job</string>
+    <string name="horse_duck">Horse Duck</string>
+    <string name="just_a_random_dude">Just a random dude</string>
+</resources>

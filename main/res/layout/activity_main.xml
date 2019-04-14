@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangle_border"
+        android:fontFamily="@font/audiowide"
+        android:padding="30dp"
+        android:text="Flash"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/audiowide"
+        android:text="-- Lightning speed door step service --"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/logInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/round_fill_border"
+        android:fontFamily="@font/audiowide"
+        android:onClick="logIn"
+        android:padding="30dp"
+        android:text="Log In"
+        android:textColor="#ff0000"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logInButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_border"
+        android:fontFamily="@font/audiowide"
+        android:onClick="signUp"
+        android:padding="30dp"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textSize="10sp" />
+
+
+</RelativeLayout>

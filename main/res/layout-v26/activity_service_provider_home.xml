@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    tools:context=".ServiceProviderHomeActivity">
+
+    <EditText
+        android:id="@+id/searchFilter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/search"
+        android:inputType="text"
+        android:autofillHints="" />
+
+
+    <ListView
+        android:id="@+id/jobList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp" />
+
+    <Button
+        android:id="@+id/toProfileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/round_border"
+        android:fontFamily="@font/audiowide"
+        android:onClick="toProfile"
+        android:padding="30dp"
+        android:text="@string/profile"
+        android:textColor="#fff"
+        android:textSize="13sp" />
+
+
+</RelativeLayout>
